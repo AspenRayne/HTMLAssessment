@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>TEXT</h1>
-    <p style="font-size:20px;"><strong>Lorem</strong>
-    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p style="margin-left:7%;font-size:20px;"><em><strong>Integer</strong> auctor est ac fringilla e uismond. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo.</em></p>
-    <p style="font-size:20px;"><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ullamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasses platea dictumst.</p>
-    <h1>TABLE</h1>
-    <table>
-      <thead>
-        <caption>Scores by quarter</caption>
-        <tr>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>TEXT</h1>
+  <p><strong>Lorem</strong>
+    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p style="margin-left:7%; margin-right:7%"><em><strong>Integer</strong> auctor est ac fringilla e uismond. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo.</em></p>
+  <p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ullamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasses platea
+    dictumst.</p>
+  <h1>TABLE</h1>
+  <table>
+    <thead>
+      <caption>Scores by quarter</caption>
+      <tr>
         <th rowspan="2">Team Name</th>
         <th colspan="2">First Half</th>
         <th colspan="2">Second Half</th>
         <th rowspan="2">final</th>
-        </tr>
-        <tr>
-          <th>Q1</th>
-          <th>Q2</th>
-          <th>Q3</th>
-          <th>Q4</th>
-        </tr>
-        </thead>
-    <tbody>
-      <tr>
-      <td scope="row">Denver</td>
-      <td>7</td>
-      <td>3</td>
-      <td>0</td>
-      <td>7</td>
-      <td>17</td>
       </tr>
       <tr>
-      <td scope="row">Chicago</td>
-      <td>0</td>
-      <td>6</td>
-      <td>3</td>
-      <td>6</td>
-      <td>15</td>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">Denver</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td scope="row">Chicago</td>
+        <td>0</td>
+        <td>6</td>
+        <td>3</td>
+        <td>6</td>
+        <td>15</td>
       </tr>
     </tbody>
     <tfoot>
@@ -53,9 +57,57 @@
         <th>3</th>
         <th>13</th>
         <th>32</th>
-    </table>
-<h1>LIST</h1>
+  </table>
+  <h1>LIST</h1>
   <ul>
-  <li> <img src="https://logos-world.net/wp-content/uploads/2020/05/Denver-Broncos-logo-700x394.png" height="50" width="85"/></li>
-  </body>
+    <li> <img src="https://logos-world.net/wp-content/uploads/2020/05/Denver-Broncos-logo-700x394.png" height="50" width="85" /><br><a href="https://www.denverbroncos.com/">Denver Broncos</a>
+      <ul style="list-style-type:circle">
+        <li>Coach: Gary Kubiak</li>
+        <li>QB
+          <ol>
+            <li>Brock Osweiler</li>
+            <li>Trevor Siemian</li>
+            <li>Peyton Manning(injured)</li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/640px-Chicago_Bears_logo.svg.png" height="50" width="85" /><br><a href="https://www.chicagobears.com/">Chicago Bears</a>
+      <ul style="list-style-type:circle">
+        <li>Coach: Gary Kubiak</li>
+        <li>QB
+          <ol>
+            <li>Jay Cutler</li>
+            <li>David Foles</li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h1>FORM</h1>
+  <label>First: </label><input type="text">
+  <label>Last: </label><input type="text"><br>
+
+  <caption>Favortie Sport:</caption><br>
+  <select>
+    <option>Soccer</option>
+    <option>Football</option>
+    <option>BasketBall</option>
+    <option>Tennis</option>
+  </select><br>
+  <label>I have:</label>
+  <input type="checkbox"> Attended
+  <input type="checkbox"> Played
+  <input type="checkbox"> Coached
+  <input type="checkbox"> Bet on<br>
+  <label>this sport.</label><br>
+  <label>For this sport I perfer the:</label>
+  <input type="radio" name="level"> Amateur
+  <input type="radio" name="level"> College
+  <input type="radio" name="level"> Professional<br>
+  <input type="submit" value="Submit Query">
+</body>
+
 </html>
